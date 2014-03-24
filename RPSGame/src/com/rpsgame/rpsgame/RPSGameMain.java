@@ -15,7 +15,7 @@ import com.rpsgame.view.RPSView;
  */
 public class RPSGameMain {
     private void init() {
-    	System.out.println("Simon was here.");
+    	System.out.println("Simon was here again.");
         new Thread(new ConsoleReader()).start();
         RPSView consoleRPSView = new ConsoleRPSView();
         RPSGame rpsGame = new RPSGame(consoleRPSView);
